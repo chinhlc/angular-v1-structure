@@ -10,9 +10,6 @@
 	configure.$inject =  ['$locationProvider'];
 	function configure($locationProvider) {
 		$locationProvider.html5Mode(true);
-
-
-
 	}
 
 	runBlock.$inject = ['$http', '$rootScope', '$localStorage', '$state', 'AuthService'];
